@@ -19,54 +19,54 @@
 # 📚 COMPREHENSIVE INDEXING
 
 ## 🔤 ALPHABETICAL INDEX (A-Z)
-- **[A]** - [Arrays](#-array-operations), [Arithmetic Operators](#-arithmetic-operators), [alias](#-built-in-functions--commands), [awk](#-built-in-functions--commands)
-- **[B]** - [break](#-essential-bash-keywords), [basename](#-built-in-functions--commands), [bg](#-built-in-functions--commands), [brace expansion](#-pattern-matching)
-- **[C]** - [case](#-essential-bash-keywords), [continue](#-essential-bash-keywords), [cd](#-built-in-functions--commands), [chmod](#-built-in-functions--commands), [cp](#-built-in-functions--commands), [cut](#-built-in-functions--commands)
-- **[D]** - [do](#-essential-bash-keywords), [done](#-essential-bash-keywords), [dirname](#-built-in-functions--commands), [date](#-built-in-functions--commands), [df](#-built-in-functions--commands), [du](#-built-in-functions--commands)
-- **[E]** - [else](#-essential-bash-keywords), [elif](#-essential-bash-keywords), [esac](#-essential-bash-keywords), [exit](#-essential-bash-keywords), [exec](#-built-in-functions--commands), [export](#-built-in-functions--commands), [echo](#-built-in-functions--commands)
-- **[F]** - [for](#-essential-bash-keywords), [fi](#-essential-bash-keywords), [find](#-built-in-functions--commands), [fg](#-built-in-functions--commands), [file functions](#-file-functions)
-- **[G]** - [grep](#-built-in-functions--commands), [globbing](#-pattern-matching), [group operations](#-logical-operators)
-- **[H]** - [here document](#-redirection-keywords), [here string](#-redirection-keywords), [head](#-built-in-functions--commands)
-- **[I]** - [if](#-essential-bash-keywords), [in](#-essential-bash-keywords), [IFS](#-special-variables), [id](#-built-in-functions--commands)
-- **[J]** - [jobs](#-built-in-functions--commands), [job control](#-job-control)
-- **[K]** - [kill](#-built-in-functions--commands), [killall](#-built-in-functions--commands)
-- **[L]** - [ls](#-built-in-functions--commands), [logical operators](#-logical-operators), [loop control](#-essential-bash-keywords)
-- **[M]** - [mkdir](#-built-in-functions--commands), [mv](#-built-in-functions--commands), [man](#-built-in-functions--commands)
-- **[N]** - [not](#-logical-operators), [nohup](#-job-control)
-- **[O]** - [operators](#-arithmetic-operators), [options](#-shell-options)
-- **[P]** - [pipe](#-redirection-keywords), [ps](#-built-in-functions--commands), [pwd](#-built-in-functions--commands), [printf](#-built-in-functions--commands), [pattern matching](#-pattern-matching)
-- **[Q]** - [quotes](#-quote-types), [quiet mode](#-shell-options)
-- **[R]** - [return](#-essential-bash-keywords), [read](#-built-in-functions--commands), [rm](#-built-in-functions--commands), [redirection](#-redirection-keywords)
-- **[S]** - [signals](#-signals), [sort](#-built-in-functions--commands), [sed](#-built-in-functions--commands), [sleep](#-built-in-functions--commands), [source](#-built-in-functions--commands), [string operations](#-string-operations), [system functions](#-system-functions)
-- **[T]** - [then](#-essential-bash-keywords), [test](#-test-operators), [touch](#-built-in-functions--commands), [tr](#-built-in-functions--commands), [type](#-built-in-functions--commands)
-- **[U]** - [until](#-essential-bash-keywords), [unset](#-built-in-functions--commands), [user functions](#-built-in-functions--commands)
-- **[V]** - [variables](#-special-variables), [validation](#-test-operators)
-- **[W]** - [while](#-essential-bash-keywords), [wc](#-built-in-functions--commands), [which](#-built-in-functions--commands), [wildcards](#-pattern-matching)
-- **[X]** - [exec](#-built-in-functions--commands), [export](#-built-in-functions--commands)
-- **[Y]** - [yes](#-built-in-functions--commands)
-- **[Z]** - [zenity](#-built-in-functions--commands), [zsh](#-shell-options)
+- **[A]** - [Arrays](#arrays), [Arithmetic Operators](#arithmetic-operations), [alias](#built-in-functions--commands), [awk](#built-in-functions--commands)
+- **[B]** - [break](#loop-control-break-continue), [basename](#built-in-functions--commands), [bg](#background--foreground-jobs), [brace expansion](#pattern-matching)
+- **[C]** - [case](#case-statement), [continue](#loop-control-break-continue), [cd](#built-in-functions--commands), [chmod](#built-in-functions--commands), [cp](#built-in-functions--commands), [cut](#built-in-functions--commands)
+- **[D]** - [do](#loops-for-while-until), [done](#loops-for-while-until), [dirname](#built-in-functions--commands), [date](#built-in-functions--commands), [df](#built-in-functions--commands), [du](#built-in-functions--commands)
+- **[E]** - [else](#conditional-statements-if-else-elif), [elif](#conditional-statements-if-else-elif), [esac](#case-statement), [exit](#built-in-functions--commands), [exec](#built-in-functions--commands), [export](#built-in-functions--commands), [echo](#built-in-functions--commands)
+- **[F]** - [for](#loops-for-while-until), [fi](#conditional-statements-if-else-elif), [find](#built-in-functions--commands), [fg](#background--foreground-jobs), [file functions](#file-handling)
+- **[G]** - [grep](#built-in-functions--commands), [globbing](#pattern-matching), [group operations](#logical-operators--)
+- **[H]** - [here document](#inputoutput-redirection), [here string](#inputoutput-redirection), [head](#built-in-functions--commands)
+- **[I]** - [if](#conditional-statements-if-else-elif), [in](#loops-for-while-until), [IFS](#super--special-variables), [id](#built-in-functions--commands)
+- **[J]** - [jobs](#background--foreground-jobs), [job control](#background--foreground-jobs)
+- **[K]** - [kill](#process-management), [killall](#process-management)
+- **[L]** - [ls](#built-in-functions--commands), [logical operators](#logical-operators--), [loop control](#loop-control-break-continue)
+- **[M]** - [mkdir](#built-in-functions--commands), [mv](#built-in-functions--commands), [man](#built-in-functions--commands)
+- **[N]** - [not](#logical-operators--), [nohup](#background--foreground-jobs)
+- **[O]** - [operators](#arithmetic-operations), [options](#shell-options)
+- **[P]** - [pipe](#pipes), [ps](#process-management), [pwd](#built-in-functions--commands), [printf](#built-in-functions--commands), [pattern matching](#pattern-matching)
+- **[Q]** - [quotes](#quotes-single-double-backticks), [quiet mode](#shell-options)
+- **[R]** - [return](#functions), [read](#user-input), [rm](#built-in-functions--commands), [redirection](#inputoutput-redirection)
+- **[S]** - [signals](#signals-and-traps), [sort](#built-in-functions--commands), [sed](#built-in-functions--commands), [sleep](#built-in-functions--commands), [source](#built-in-functions--commands), [string operations](#string-operations), [system functions](#built-in-functions--commands)
+- **[T]** - [then](#conditional-statements-if-else-elif), [test](#file-and-directory-tests), [touch](#built-in-functions--commands), [tr](#built-in-functions--commands), [type](#built-in-functions--commands)
+- **[U]** - [until](#loops-for-while-until), [unset](#built-in-functions--commands), [user functions](#functions)
+- **[V]** - [variables](#variables), [validation](#file-and-directory-tests)
+- **[W]** - [while](#loops-for-while-until), [wc](#built-in-functions--commands), [which](#built-in-functions--commands), [wildcards](#pattern-matching)
+- **[X]** - [exec](#built-in-functions--commands), [export](#built-in-functions--commands)
+- **[Y]** - [yes](#built-in-functions--commands)
+- **[Z]** - [zenity](#built-in-functions--commands), [zsh](#shell-options)
 
 ## 📂 CATEGORY INDEX
-- **[Control Flow]** - [if/else/fi](#-essential-bash-keywords), [case/esac](#-essential-bash-keywords), [for/do/done](#-essential-bash-keywords), [while/do/done](#-essential-bash-keywords), [until/do/done](#-essential-bash-keywords)
-- **[Data Types]** - [Strings](#-string-operations), [Arrays](#-array-operations), [Numbers](#-arithmetic-operators), [Files](#-file-functions)
-- **[File Operations]** - [File I/O](#-file-functions), [Redirection](#-redirection-keywords), [Permissions](#-built-in-functions--commands)
-- **[Process Management]** - [Background Jobs](#-job-control), [Signals](#-signals), [Process Control](#-system-functions)
-- **[Text Processing]** - [String Functions](#-string-functions), [Pattern Matching](#-pattern-matching), [Text Filters](#-built-in-functions--commands)
-- **[System Administration]** - [User Management](#-system-functions), [System Info](#-system-functions), [Environment](#-special-variables)
-- **[Security]** - [Permissions](#-built-in-functions--commands), [Validation](#-test-operators), [Secure Scripting](#-shell-options)
+- **[Control Flow]** - [if/else/fi](#conditional-statements-if-else-elif), [case/esac](#case-statement), [for/do/done](#loops-for-while-until), [while/do/done](#loops-for-while-until), [until/do/done](#loops-for-while-until)
+- **[Data Types]** - [Strings](#string-operations), [Arrays](#arrays), [Numbers](#arithmetic-operations), [Files](#file-handling)
+- **[File Operations]** - [File I/O](#file-handling), [Redirection](#inputoutput-redirection), [Permissions](#built-in-functions--commands)
+- **[Process Management]** - [Background Jobs](#background--foreground-jobs), [Signals](#signals-and-traps), [Process Control](#process-management)
+- **[Text Processing]** - [String Functions](#string-operations), [Pattern Matching](#pattern-matching), [Text Filters](#built-in-functions--commands)
+- **[System Administration]** - [User Management](#built-in-functions--commands), [System Info](#built-in-functions--commands), [Environment](#super--special-variables)
+- **[Security]** - [Permissions](#built-in-functions--commands), [Validation](#file-and-directory-tests), [Secure Scripting](#secure-scripting-practices)
 
 ## 🎯 SKILL LEVEL INDEX
-- **[Beginner]** - [Basic Keywords](#-essential-bash-keywords), [Simple Variables](#-special-variables), [Basic Commands](#-built-in-functions--commands)
-- **[Intermediate]** - [Arrays](#-array-operations), [String Operations](#-string-operations), [Redirection](#-redirection-keywords)
-- **[Advanced]** - [Process Control](#-job-control), [Signals](#-signals), [Pattern Matching](#-pattern-matching)
-- **[Expert]** - [Shell Options](#-shell-options), [Advanced Operators](#-arithmetic-operators), [Complex Operations](#-string-operations)
+- **[Beginner]** - [Basic Keywords](#what-is-bash), [Simple Variables](#variables), [Basic Commands](#built-in-functions--commands)
+- **[Intermediate]** - [Arrays](#arrays), [String Operations](#string-operations), [Redirection](#inputoutput-redirection)
+- **[Advanced]** - [Process Control](#process-management), [Signals](#signals-and-traps), [Pattern Matching](#pattern-matching)
+- **[Expert]** - [Shell Options](#shell-options), [Advanced Operators](#arithmetic-operations), [Complex Operations](#string-operations)
 
 ## 🔍 SEARCH INDEX
-- **[Conditional Logic]** - [if](#-essential-bash-keywords), [test](#-test-operators), [logical operators](#-logical-operators)
-- **[Loops & Iteration]** - [for](#-essential-bash-keywords), [while](#-essential-bash-keywords), [until](#-essential-bash-keywords), [break](#-essential-bash-keywords), [continue](#-essential-bash-keywords)
-- **[Data Manipulation]** - [strings](#-string-operations), [arrays](#-array-operations), [arithmetic](#-arithmetic-operators)
-- **[File System]** - [file operations](#-file-functions), [directory operations](#-built-in-functions--commands), [permissions](#-built-in-functions--commands)
-- **[Process & System]** - [process management](#-job-control), [system information](#-system-functions), [environment](#-special-variables)
+- **[Conditional Logic]** - [if](#conditional-statements-if-else-elif), [test](#file-and-directory-tests), [logical operators](#logical-operators--)
+- **[Loops & Iteration]** - [for](#loops-for-while-until), [while](#loops-for-while-until), [until](#loops-for-while-until), [break](#loop-control-break-continue), [continue](#loop-control-break-continue)
+- **[Data Manipulation]** - [strings](#string-operations), [arrays](#arrays), [arithmetic](#arithmetic-operations)
+- **[File System]** - [file operations](#file-handling), [directory operations](#built-in-functions--commands), [permissions](#built-in-functions--commands)
+- **[Process & System]** - [process management](#process-management), [system information](#built-in-functions--commands), [environment](#super--special-variables)
 
 ---
 
@@ -4686,60 +4686,6 @@ Custom function:
 ---
 
 # 📚 BASH SCRIPTING REFERENCE - KEYWORDS, FUNCTIONS & VARIABLES
-
-## 📋 QUICK INDEX
-
-### **🔤 ALPHABETICAL INDEX:**
-- **[A]** - [Arrays](#-array-operations), [Arithmetic Operators](#-arithmetic-operators), [alias](#-built-in-functions--commands), [awk](#-built-in-functions--commands)
-- **[B]** - [break](#-essential-bash-keywords), [basename](#-built-in-functions--commands), [bg](#-built-in-functions--commands), [brace expansion](#-pattern-matching)
-- **[C]** - [case](#-essential-bash-keywords), [continue](#-essential-bash-keywords), [cd](#-built-in-functions--commands), [chmod](#-built-in-functions--commands), [cp](#-built-in-functions--commands), [cut](#-built-in-functions--commands)
-- **[D]** - [do](#-essential-bash-keywords), [done](#-essential-bash-keywords), [dirname](#-built-in-functions--commands), [date](#-built-in-functions--commands), [df](#-built-in-functions--commands), [du](#-built-in-functions--commands)
-- **[E]** - [else](#-essential-bash-keywords), [elif](#-essential-bash-keywords), [esac](#-essential-bash-keywords), [exit](#-essential-bash-keywords), [exec](#-built-in-functions--commands), [export](#-built-in-functions--commands), [echo](#-built-in-functions--commands)
-- **[F]** - [for](#-essential-bash-keywords), [fi](#-essential-bash-keywords), [find](#-built-in-functions--commands), [fg](#-built-in-functions--commands), [file functions](#-file-functions)
-- **[G]** - [grep](#-built-in-functions--commands), [globbing](#-pattern-matching), [group operations](#-logical-operators)
-- **[H]** - [here document](#redirection-keywords), [here string](#redirection-keywords), [head](#-built-in-functions--commands)
-- **[I]** - [if](#-essential-bash-keywords), [in](#-essential-bash-keywords), [IFS](#-special-variables), [id](#-built-in-functions--commands)
-- **[J]** - [jobs](#-built-in-functions--commands), [job control](#-job-control)
-- **[K]** - [kill](#-built-in-functions--commands), [killall](#-built-in-functions--commands)
-- **[L]** - [ls](#-built-in-functions--commands), [logical operators](#-logical-operators), [loop control](#-essential-bash-keywords)
-- **[M]** - [mkdir](#-built-in-functions--commands), [mv](#-built-in-functions--commands), [man](#-built-in-functions--commands)
-- **[N]** - [not](#-logical-operators), [nohup](#-job-control)
-- **[O]** - [operators](#-arithmetic-operators), [options](#-shell-options)
-- **[P]** - [pipe](#-redirection-keywords), [ps](#-built-in-functions--commands), [pwd](#-built-in-functions--commands), [printf](#-built-in-functions--commands), [pattern matching](#-pattern-matching)
-- **[Q]** - [quotes](#-quote-types), [quiet mode](#-shell-options)
-- **[R]** - [return](#-essential-bash-keywords), [read](#-built-in-functions--commands), [rm](#-built-in-functions--commands), [redirection](#-redirection-keywords)
-- **[S]** - [signals](#-signals), [sort](#-built-in-functions--commands), [sed](#-built-in-functions--commands), [sleep](#-built-in-functions--commands), [source](#-built-in-functions--commands), [string operations](#-string-operations), [system functions](#-system-functions)
-- **[T]** - [then](#-essential-bash-keywords), [test](#-test-operators), [touch](#-built-in-functions--commands), [tr](#-built-in-functions--commands), [type](#-built-in-functions--commands)
-- **[U]** - [until](#-essential-bash-keywords), [unset](#-built-in-functions--commands), [user functions](#-built-in-functions--commands)
-- **[V]** - [variables](#-special-variables), [validation](#-test-operators)
-- **[W]** - [while](#-essential-bash-keywords), [wc](#-built-in-functions--commands), [which](#-built-in-functions--commands), [wildcards](#-pattern-matching)
-- **[X]** - [exec](#-built-in-functions--commands), [export](#-built-in-functions--commands)
-- **[Y]** - [yes](#-built-in-functions--commands)
-- **[Z]** - [zenity](#-built-in-functions--commands), [zsh](#-shell-options)
-
-### **📂 CATEGORY INDEX:**
-- **[Control Flow]** - [if/else/fi](#-essential-bash-keywords), [case/esac](#-essential-bash-keywords), [for/do/done](#-essential-bash-keywords), [while/do/done](#-essential-bash-keywords), [until/do/done](#-essential-bash-keywords)
-- **[Data Types]** - [Strings](#-string-operations), [Arrays](#-array-operations), [Numbers](#-arithmetic-operators), [Files](#-file-functions)
-- **[File Operations]** - [File I/O](#-file-functions), [Redirection](#-redirection-keywords), [Permissions](#-built-in-functions--commands)
-- **[Process Management]** - [Background Jobs](#-job-control), [Signals](#-signals), [Process Control](#-system-functions)
-- **[Text Processing]** - [String Functions](#-string-functions), [Pattern Matching](#-pattern-matching), [Text Filters](#-built-in-functions--commands)
-- **[System Administration]** - [User Management](#-system-functions), [System Info](#-system-functions), [Environment](#-special-variables)
-- **[Security]** - [Permissions](#-built-in-functions--commands), [Validation](#-test-operators), [Secure Scripting](#-shell-options)
-
-### **🎯 SKILL LEVEL INDEX:**
-- **[Beginner]** - [Basic Keywords](#-essential-bash-keywords), [Simple Variables](#-special-variables), [Basic Commands](#-built-in-functions--commands)
-- **[Intermediate]** - [Arrays](#-array-operations), [String Operations](#-string-operations), [Redirection](#-redirection-keywords)
-- **[Advanced]** - [Process Control](#-job-control), [Signals](#-signals), [Pattern Matching](#-pattern-matching)
-- **[Expert]** - [Shell Options](#-shell-options), [Advanced Operators](#-arithmetic-operators), [Complex Operations](#-string-operations)
-
-### **🔍 SEARCH INDEX:**
-- **[Conditional Logic]** - [if](#-essential-bash-keywords), [test](#-test-operators), [logical operators](#-logical-operators)
-- **[Loops & Iteration]** - [for](#-essential-bash-keywords), [while](#-essential-bash-keywords), [until](#-essential-bash-keywords), [break](#-essential-bash-keywords), [continue](#-essential-bash-keywords)
-- **[Data Manipulation]** - [strings](#-string-operations), [arrays](#-array-operations), [arithmetic](#-arithmetic-operators)
-- **[File System]** - [file operations](#-file-functions), [directory operations](#-built-in-functions--commands), [permissions](#-built-in-functions--commands)
-- **[Process & System]** - [process management](#-job-control), [system information](#-system-functions), [environment](#-special-variables)
-
----
 
 ## 🔑 ESSENTIAL BASH KEYWORDS
 

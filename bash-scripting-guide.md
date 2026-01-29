@@ -3,6 +3,312 @@
 
 ---
 
+# 📋 MAIN INDEX (TABLE OF CONTENTS)
+
+## 🚀 QUICK NAVIGATION
+- [**BASIC LEVEL**](#basic-level) - Foundation concepts (11 topics)
+- [**INTERMEDIATE LEVEL**](#intermediate-level) - Core programming (10 topics)  
+- [**ADVANCED LEVEL**](#advanced-level) - Professional techniques (8 topics)
+- [**CYBERSECURITY SECTION**](#cybersecurity-section) - Security applications (8 topics)
+- [**EXTRA ADVANCED TOPICS**](extra-advanced-topics) - Expert-level features (7 topics)
+- [**CONCLUSION**](#conclusion) - Summary & next steps
+
+---
+
+# BASIC LEVEL
+
+## 1. [What is Bash?](#what-is-bash)
+- Definition and explanation
+- Real-life and cybersecurity use cases
+- Basic syntax and examples
+
+## 2. [Shell vs Bash](#shell-vs-bash)
+- Understanding shell types
+- Available shells comparison
+- Version checking methods
+
+## 3. [Script Structure (Shebang, Comments)](#script-structure-shebang-comments)
+- Shebang line importance
+- Comment best practices
+- Script documentation standards
+
+## 4. [Running a Bash Script](#running-a-bash-script)
+- Execution methods comparison
+- Permission management
+- Security implications
+
+## 5. [Variables](#variables)
+- Variable creation and usage
+- Data types and scope
+- Best practices
+
+## 6. [User Input](#user-input)
+- Reading user input
+- Input validation
+- Secure input handling
+
+## 7. [Super / Special Variables](#super--special-variables)
+- Predefined variables reference
+- Script parameter handling
+- Process information
+
+## 8. [Quotes (Single, Double, Backticks)](#quotes-single-double-backticks)
+- Quote types and behavior
+- Variable expansion control
+- Command substitution
+
+## 9. [Arithmetic Operations](#arithmetic-operations)
+- Integer arithmetic methods
+- Floating-point calculations
+- Mathematical expressions
+
+## 10. [Conditional Statements (if, else, elif)](#conditional-statements-if-else-elif)
+- Decision-making structures
+- File and string comparisons
+- Complex condition logic
+
+## 11. [File and Directory Tests](#file-and-directory-tests)
+- File existence checking
+- Permission verification
+- Directory operations
+
+## 12. [Logical Operators (&&, ||, !)](#logical-operators--)
+- Command chaining
+- Conditional execution
+- Error handling patterns
+
+---
+
+# INTERMEDIATE LEVEL
+
+## 13. [Loops (for, while, until)](#loops-for-while-until)
+- Loop types and syntax
+- Array iteration
+- Conditional looping
+
+## 14. [Loop Control (break, continue)](#loop-control-break-continue)
+- Loop interruption
+- Iteration skipping
+- Nested loop management
+
+## 15. [Functions](#functions)
+- Function creation and calling
+- Parameter passing
+- Return values
+
+## 16. [Local vs Global Variables](#local-vs-global-variables)
+- Variable scope management
+- Best practices
+- Memory considerations
+
+## 17. [Case Statement](#case-statement)
+- Multi-way conditionals
+- Pattern matching
+- Menu creation
+
+## 18. [Arrays](#arrays)
+- Array creation and manipulation
+- Associative arrays
+- Data structure operations
+
+## 19. [String Operations](#string-operations)
+- String manipulation techniques
+- Pattern matching
+- Text processing
+
+## 20. [File Handling](#file-handling)
+- File reading and writing
+- Line-by-line processing
+- File management
+
+## 21. [Input/Output Redirection](#inputoutput-redirection)
+- Stream redirection
+- File descriptor management
+- Advanced I/O techniques
+
+## 22. [Pipes](#pipes)
+- Command chaining
+- Data processing pipelines
+- Stream manipulation
+
+## 23. [Exit Status and Error Handling](#exit-status-and-error-handling)
+- Error detection and handling
+- Exit code management
+- Robust scripting
+
+## 24. [Process Management](#process-management)
+- Process control
+- Background execution
+- Resource monitoring
+
+## 25. [Background & Foreground Jobs](#background--foreground-jobs)
+- Job control techniques
+- Process suspension
+- Multi-tasking
+
+---
+
+# ADVANCED LEVEL
+
+## 26. [Signals and Traps](#signals-and-traps)
+- Signal handling
+- Cleanup routines
+- Graceful termination
+
+## 27. [Debugging Bash Scripts](#debugging-bash-scripts)
+- Debugging techniques
+- Troubleshooting methods
+- Performance analysis
+
+## 28. [Bash Scripting Best Practices](#bash-scripting-best-practices)
+- Code quality standards
+- Security considerations
+- Maintainability guidelines
+
+## 29. [Automation with Cron Jobs](#automation-with-cron-jobs)
+- Task scheduling
+- Automated execution
+- System maintenance
+
+## 30. [Logging in Bash Scripts](#logging-in-bash-scripts)
+- Log management
+- Audit trails
+- Monitoring implementation
+
+## 31. [Secure Scripting Practices](#secure-scripting-practices)
+- Security hardening
+- Input validation
+- Privilege management
+
+## 32. [Performance Optimization](#performance-optimization)
+- Efficiency techniques
+- Resource optimization
+- Speed improvements
+
+## 33. [Bash Scripting for System Administration](#bash-scripting-for-system-administration)
+- System automation
+- Administrative tasks
+- Server management
+
+---
+
+# CYBERSECURITY SECTION
+
+## 34. [Bash Scripting for Cybersecurity Automation](#bash-scripting-for-cybersecurity-automation)
+- Security automation basics
+- Threat detection scripts
+- Incident response automation
+
+## 35. [Network Scanning Automation](#network-scanning-automation)
+- Port scanning techniques
+- Network discovery
+- Vulnerability assessment
+
+## 36. [Log Monitoring](#log-monitoring)
+- Security log analysis
+- Real-time monitoring
+- Threat detection
+
+## 37. [Incident Response](#incident-response)
+- Automated response procedures
+- Evidence preservation
+- Threat containment
+
+## 38. [SOC Operations](#soc-operations)
+- Security operations center automation
+- Alert triage
+- Dashboard generation
+
+## 39. [File Integrity Checking](#file-integrity-checking)
+- Integrity monitoring
+- Change detection
+- Forensic analysis
+
+## 40. [Malware Analysis Automation (Theoretical)](#malware-analysis-automation-theoretical)
+- Static analysis techniques
+- Behavioral monitoring
+- Educational approaches
+
+## 41. [Ethical Hacking Labs (TryHackMe / HTB – Legal Only)](#ethical-hacking-labs-tryhackme--htb--legal-only)
+- Legal penetration testing
+- Lab automation
+- Security assessment
+
+---
+
+# EXTRA ADVANCED TOPICS
+
+## 42. [Process Substitution](#process-substitution)
+- Advanced I/O techniques
+- Temporary file alternatives
+- Data processing patterns
+
+## 43. [Here Documents and Here Strings](#here-documents-and-here-strings)
+- Multi-line input handling
+- Configuration generation
+- Script automation
+
+## 44. [Coprocesses](#coprocesses)
+- Bidirectional communication
+- Interactive processes
+- Advanced IPC
+
+## 45. [Extended Globbing](#extended-globbing)
+- Advanced pattern matching
+- File selection techniques
+- Complex filtering
+
+## 46. [Brace Expansion](#brace-expansion)
+- String generation
+- Batch operations
+- Command automation
+
+## 47. [Named Pipes (FIFOs)](#named-pipes-fifos)
+- Inter-process communication
+- Data streaming
+- Concurrent processing
+
+## 48. [Mathematical Operations with bc](#mathematical-operations-with-bc)
+- Advanced calculations
+- Scientific computing
+- Financial computations
+
+---
+
+# CONCLUSION
+
+## 49. [Key Takeaways](#key-takeaways)
+- Learning summary
+- Best practices reminder
+- Security considerations
+
+## 50. [Next Steps](#next-steps)
+- Continuous learning path
+- Advanced topics exploration
+- Professional development
+
+---
+
+**📊 GUIDE STATISTICS:**
+- **Total Topics:** 50
+- **Basic Level:** 12 topics
+- **Intermediate Level:** 13 topics  
+- **Advanced Level:** 8 topics
+- **Cybersecurity:** 8 topics
+- **Extra Advanced:** 7 topics
+- **Examples per topic:** 1-3 complete scripts
+- **Total Lines:** ~4,300+ lines
+
+**🎯 LEARNING PATH:**
+1. Start with **Basic Level** (topics 1-12)
+2. Progress to **Intermediate Level** (topics 13-25)
+3. Master **Advanced Level** (topics 26-33)
+4. Specialize in **Cybersecurity** (topics 34-41)
+5. Explore **Extra Advanced** (topics 42-48)
+6. Review **Conclusion** (topics 49-50)
+
+---
+
 # BASIC LEVEL
 
 ## What is Bash?

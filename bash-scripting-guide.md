@@ -4630,6 +4630,313 @@ Custom function:
 
 ---
 
+# 📚 BASH SCRIPTING REFERENCE - KEYWORDS, FUNCTIONS & VARIABLES
+
+## 🔑 ESSENTIAL BASH KEYWORDS
+
+### **Control Flow Keywords:**
+- **`if`** - Start conditional block to test conditions and execute code based on true/false results
+- **`then`** - Execute commands when the preceding `if` condition is true
+- **`else`** - Execute commands when the preceding `if` condition is false
+- **`elif`** - Additional conditional test when previous `if` conditions were false
+- **`fi`** - End conditional block (reverse of `if`)
+- **`case`** - Start multi-way conditional for pattern matching against multiple values
+- **`in`** - Specify pattern list in `case` statement or iterate over items in `for` loop
+- **`esac`** - End case statement (reverse of `case`)
+- **`for`** - Loop through items in a list or range of values
+- **`while`** - Loop continuously while a condition remains true
+- **`until`** - Loop continuously until a condition becomes true
+- **`do`** - Start loop body where commands are executed
+- **`done`** - End loop block
+- **`break`** - Exit from current loop immediately
+- **`continue`** - Skip current iteration and continue with next loop iteration
+- **`return`** - Exit from function and optionally return a value
+- **`exit`** - Exit from script with optional exit status code
+
+### **Redirection Keywords:**
+- **`>`** - Redirect output to file, overwriting existing content
+- **`>>`** - Redirect output to file, appending to existing content
+- **`<`** - Redirect input from file to command
+- **`<<`** - Here document - read multi-line input until delimiter
+- **`<<<`** - Here string - pass single string as input to command
+- **`2>`** - Redirect stderr (error output) to file
+- **`&>`** - Redirect both stdout and stderr to file
+- **`|`** - Pipe - send output of one command as input to another
+
+### **Test Operators:**
+- **`[`** - Start test expression for conditional evaluation (alias of `test`)
+- **`[[`** - Start extended test expression with advanced pattern matching
+- **`((`** - Start arithmetic evaluation for integer calculations
+- **`-eq`** - Numeric equality test (equals)
+- **`-ne`** - Numeric inequality test (not equals)
+- **`-lt`** - Numeric less than test
+- **`-gt`** - Numeric greater than test
+- **`==`** - String equality test
+- **`!=`** - String inequality test
+- **`=~`** - Regular expression pattern match test
+- **`-z`** - Test if string is empty (zero length)
+- **`-n`** - Test if string is not empty (non-zero length)
+- **`-f`** - Test if file exists and is regular file
+- **`-d`** - Test if directory exists
+- **`-r`** - Test if file is readable
+- **`-w`** - Test if file is writable
+- **`-x`** - Test if file is executable
+
+---
+
+## 🛠️ BUILT-IN FUNCTIONS & COMMANDS
+
+### **String Functions:**
+- **`echo`** - Display text or variables to standard output
+- **`printf`** - Format and display text with advanced formatting options
+- **`read`** - Read input from user or file into variables
+- **`basename`** - Extract filename from full path
+- **`dirname`** - Extract directory path from full path
+- **`tr`** - Translate or delete characters from input stream
+- **`sed`** - Stream editor for text transformation
+- **`awk`** - Pattern scanning and text processing language
+- **`cut`** - Extract columns/fields from input lines
+- **`sort`** - Sort lines of text files
+- **`uniq`** - Remove duplicate lines from sorted input
+- **`grep`** - Search for patterns in text using regular expressions
+- **`wc`** - Count lines, words, and characters in input
+
+### **File Functions:**
+- **`touch`** - Create empty files or update file timestamps
+- **`mkdir`** - Create directories
+- **`rm`** - Remove files or directories
+- **`cp`** - Copy files or directories
+- **`mv`** - Move or rename files and directories
+- **`find`** - Search for files and directories based on criteria
+- **`ls`** - List directory contents
+- **`cd`** - Change current working directory
+- **`pwd`** - Print current working directory
+- **`chmod`** - Change file permissions
+- **`chown`** - Change file ownership
+- **`stat`** - Display file or filesystem status
+
+### **System Functions:**
+- **`ps`** - Display running processes
+- **`kill`** - Send signals to processes
+- **`killall`** - Kill processes by name
+- **`sleep`** - Pause execution for specified time
+- **`date`** - Display or set system date and time
+- **`whoami`** - Display current username
+- **`id`** - Display user and group information
+- **`which`** - Locate command in PATH
+- **`type`** - Display command type and location
+- **`export`** - Set environment variables
+- **`unset`** - Remove variables or functions
+- **`alias`** - Create command aliases
+- **`unalias`** - Remove command aliases
+- **`source`** - Execute commands from file in current shell
+- **`exec`** - Replace current shell with new command
+- **`wait`** - Wait for background jobs to complete
+- **`jobs`** - Display active background jobs
+- **`bg`** - Resume suspended job in background
+- **`fg`** - Resume suspended job in foreground
+
+---
+
+## 📊 SPECIAL VARIABLES
+
+### **Positional Parameters:**
+- **`$0`** - Script name or command being executed
+- **`$1, $2, $3...`** - Positional parameters (arguments to script)
+- **`$#`** - Number of positional parameters
+- **`$*`** - All positional parameters as single string
+- **`$@`** - All positional parameters as separate strings
+
+### **Process Variables:**
+- **`$?`** - Exit status of last command (0=success, non-zero=failure)
+- **`$$`** - Process ID (PID) of current shell
+- **`$!`** - Process ID (PID) of most recent background command
+- **`$-`** - Current shell options
+- **`$_`** - Last argument of previous command
+
+### **Environment Variables:**
+- **`$HOME`** - Current user's home directory
+- **`$PATH`** - Search path for commands
+- **`$USER`** - Current username
+- **`$SHELL`** - Current shell path
+- **`$PWD`** - Current working directory
+- **`$OLDPWD`** - Previous working directory
+- **`$RANDOM`** - Random number between 0-32767
+- **`$SECONDS`** - Number of seconds since script started
+- **`$IFS`** - Internal Field Separator (default: space, tab, newline)
+
+---
+
+## 🎯 ARITHMETIC OPERATORS
+
+### **Basic Operators:**
+- **`$((expression))`** - Arithmetic evaluation
+- **`+`** - Addition
+- **`-`** - Subtraction
+- **`*`** - Multiplication
+- **`/`** - Integer division
+- **`%`** - Modulo (remainder)
+- **`**`** - Exponentiation
+
+### **Assignment Operators:**
+- **`++`** - Increment
+- **`--`** - Decrement
+- **`+=`** - Add and assign
+- **`-=`** - Subtract and assign
+- **`*=`** - Multiply and assign
+- **`/=`** - Divide and assign
+
+---
+
+## 📝 STRING OPERATIONS
+
+### **Variable Expansion:**
+- **`$variable`** - Variable value expansion
+- **`${variable}`** - Variable expansion with braces
+- **`${variable:position}`** - Substring from position
+- **`${variable:position:length}`** - Substring with length
+
+### **Pattern Matching:**
+- **`${variable#pattern}`** - Remove shortest prefix pattern
+- **`${variable##pattern}`** - Remove longest prefix pattern
+- **`${variable%pattern}`** - Remove shortest suffix pattern
+- **`${variable%%pattern}`** - Remove longest suffix pattern
+
+### **Replacement & Case:**
+- **`${variable/pattern/replacement}`** - Replace first occurrence
+- **`${variable//pattern/replacement}`** - Replace all occurrences
+- **`${variable^pattern}`** - Uppercase first character
+- **`${variable^^pattern}`** - Uppercase all characters
+- **`${variable,pattern}`** - Lowercase first character
+- **`${variable,,pattern}`** - Lowercase all characters
+
+---
+
+## 🔧 ARRAY OPERATIONS
+
+### **Array Access:**
+- **`${array[index]}`** - Access array element by index
+- **`${array[@]}`** - All array elements as separate words
+- **`${array[*]}`** - All array elements as single string
+- **`${#array[@]}`** - Number of array elements
+- **`${!array[@]}`** - All array indices
+
+### **Array Manipulation:**
+- **`array=(value1 value2)`** - Declare array with values
+- **`array[index]=value`** - Set array element value
+- **`unset array[index]`** - Remove array element
+
+---
+
+## 🚀 LOGICAL OPERATORS
+
+### **Command Chaining:**
+- **`&&`** - Logical AND (execute second command if first succeeds)
+- **`||`** - Logical OR (execute second command if first fails)
+- **`!`** - Logical NOT (negate exit status)
+
+### **Test Expression Operators:**
+- **`-a`** - Logical AND in test expressions
+- **`-o`** - Logical OR in test expressions
+
+---
+
+## 📋 QUOTE TYPES
+
+### **Single Quotes:**
+- **`'text'`** - Single quotes (literal text, no expansion)
+
+### **Double Quotes:**
+- **`"text"`** - Double quotes (variable and command expansion)
+
+### **Command Substitution:**
+- **`` `command` `` - Backticks (command substitution, old style)
+- **`$(command)`** - Command substitution (preferred style)
+
+---
+
+## 🎮 JOB CONTROL
+
+### **Background Operations:**
+- **`&`** - Run command in background
+- **`Ctrl+C`** - Interrupt/kill current foreground process
+- **`Ctrl+Z`** - Suspend current foreground process
+- **`nohup`** - Run command immune to hangups
+- **`disown`** - Remove job from shell's job table
+
+---
+
+## 🔍 PATTERN MATCHING
+
+### **Wildcards:**
+- **`*`** - Match any string (including empty)
+- **`?`** - Match exactly one character
+- **`[abc]`** - Match any character in brackets
+- **`[a-z]`** - Match any character in range
+- **`[!abc]`** - Match any character NOT in brackets
+
+### **Brace Expansion:**
+- **`{a,b,c}`** - Brace expansion (multiple strings)
+
+---
+
+## 📞 SIGNALS
+
+### **Common Signals:**
+- **`SIGINT (2)`** - Interrupt signal (Ctrl+C)
+- **`SIGTERM (15)`** - Termination signal
+- **`SIGKILL (9)`** - Kill signal (cannot be ignored)
+- **`SIGHUP (1)`** - Hangup signal (terminal disconnect)
+- **`SIGQUIT (3)`** - Quit signal (Ctrl+\)
+
+---
+
+## 🎯 SHELL OPTIONS
+
+### **Error Handling:**
+- **`set -e`** - Exit on error
+- **`set -u`** - Treat unset variables as error
+- **`set -x`** - Debug mode (show commands)
+- **`set -o pipefail`** - Pipe fails if any command fails
+
+### **Extended Features:**
+- **`shopt -s extglob`** - Enable extended globbing
+- **`shopt -s nocasematch`** - Case insensitive matching
+
+---
+
+**📖 USAGE EXAMPLES:**
+
+```bash
+# Control Flow Example
+if [ -f "$file" ]; then
+    echo "File exists"
+elif [ -d "$file" ]; then
+    echo "Directory exists"
+else
+    echo "Not found"
+fi
+
+# String Operations Example
+name="John"
+echo "Hello, ${name^^}!"  # Uppercase: JOHN
+
+# Array Example
+files=($(ls *.txt))
+echo "Found ${#files[@]} files"
+
+# Arithmetic Example
+result=$((10 + 5 * 2))
+echo "Result: $result"
+
+# Pattern Matching Example
+for file in *.log; do
+    echo "Processing: $file"
+done
+```
+
+---
+
 # CONCLUSION
 
 This comprehensive Bash scripting guide covers everything from basic concepts to advanced cybersecurity applications. Bash scripting is an essential skill for system administrators, cybersecurity professionals, and anyone working with Linux/Unix systems.
